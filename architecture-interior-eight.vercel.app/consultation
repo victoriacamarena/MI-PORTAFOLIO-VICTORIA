@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from https://architecture-interior-eight.vercel.app/consultation by HTTrack Website Copier/3.x [XR&CO], Wed, 11 Nov 2026 20:40:12 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Consultation - Luxe Studio</title>
+    <meta name="description"
+        content="Professional design consultation services to guide your architectural and interior design projects from concept to completion.">
+    <link rel="icon" href="assets/images/icon.png">
+    <!-- Bootstrap 5 CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- AOS Animation Library -->
+    <link href="assets/css/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="logo-animation">
+                <span class="logo-text">LUXE</span>
+                <div class="logo-line"></div>
+                <span class="logo-subtitle">STUDIO</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="brand-text">LUXE</span>
+                <span class="brand-subtitle">STUDIO</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvas">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+                         <li class="nav-item"><a class="nav-link" href="home2">Home2</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#process">Process</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#blog">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="consult-hero-section">
+        <div class="consult-hero-background"></div>
+        <div class="consult-hero-overlay"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-8">
+                    <h1 class="consult-hero-title" data-aos="fade-up" data-aos-delay="300">
+                        Design
+                        <span class="accent-text">Consultation</span>
+                    </h1>
+                    <p class="consult-hero-subtitle" data-aos="fade-up" data-aos-delay="500">
+                        Expert guidance to transform your design vision into reality with professional insights,
+                        strategic planning, and creative solutions.
+                    </p>
+                    <a href="#consultation-form" class="btn btn-primary" data-aos="fade-up"
+                        data-aos-delay="700">Schedule Your Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultation Services -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="section-header" data-aos="fade-up">
+                        <span class="section-subtitle">Our Expertise</span>
+                        <h2 class="section-title">Consultation Services</h2>
+                        <p class="section-description">Professional guidance tailored to your specific design challenges
+                            and aspirations.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="consult-service-card">
+                        <div class="consult-service-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M12,20c-4.41,0-8-3.59-8-8s3.59-8,8-8s8,3.59,8,8S16.41,20,12,20z M12,11c0.55,0,1,0.45,1,1v4c0,0.55-0.45,1-1,1s-1-0.45-1-1v-4C11,11.45,11.45,11,12,11z M12,7c0.55,0,1,0.45,1,1s-0.45,1-1,1s-1-0.45-1-1S11.45,7,12,7z" />
+                            </svg>
+                        </div>
+                        <h3>Initial Design Assessment</h3>
+                        <p>Comprehensive evaluation of your space, needs, and goals to establish a clear direction for
+                            your project.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="consult-service-card">
+                        <div class="consult-service-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21,7H3C2.45,7,2,6.55,2,6s0.45-1,1-1h18c0.55,0,1,0.45,1,1S21.55,7,21,7z M18,9H6C5.45,9,5,9.45,5,10s0.45,1,1,1h12c0.55,0,1-0.45,1-1S18.55,9,18,9z M21,17H3c-0.55,0-1,0.45-1,1s0.45,1,1,1h18c0.55,0,1-0.45,1-1S21.55,17,21,17z M18,13H6c-0.55,0-1,0.45-1,1s0.45,1,1,1h12c0.55,0,1-0.45,1-1S18.55,13,18,13z" />
+                            </svg>
+                        </div>
+                        <h3>Design Concept Development</h3>
+                        <p>Creation of initial design concepts, mood boards, and style direction tailored to your
+                            preferences.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="consult-service-card">
+                        <div class="consult-service-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19,2H5C3.9,2,3,2.9,3,4v16c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V4C21,2.9,20.1,2,19,2z M19,20H5V4h14V20z M7,10h10v2H7V10z M7,14h7v2H7V14z" />
+                            </svg>
+                        </div>
+                        <h3>Material & Finish Selection</h3>
+                        <p>Expert guidance on material choices, color palettes, and finishes that align with your vision
+                            and budget.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="consult-service-card">
+                        <div class="consult-service-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.99,4c0-1.1-0.89-2-1.99-2H4C2.9,2,2,2.9,2,4v16c0,1.1,0.9,2,2,2h14l4-4V4z M18,14H6v-2h12V14z M18,11H6V9h12V11z M18,8H6V6h12V8z" />
+                            </svg>
+                        </div>
+                        <h3>Furniture & Fixture Planning</h3>
+                        <p>Strategic selection and placement of furniture, lighting, and fixtures to optimize function
+                            and aesthetics.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="consult-service-card">
+                        <div class="consult-service-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21,16.5c0,0.83-0.67,1.5-1.5,1.5H4.5C3.67,18,3,17.33,3,16.5v-9C3,6.67,3.67,6,4.5,6h15C20.33,6,21,6.67,21,7.5V16.5z M19.5,16.5V7.5h-15v9H19.5z M9,12L6,9v6L9,12z M15,12l3-3v6L15,12z" />
+                            </svg>
+                        </div>
+                        <h3>Budget Planning & Management</h3>
+                        <p>Strategic financial guidance to maximize your investment while achieving your design goals.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="consult-service-card">
+                        <div class="consult-service-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12,2C8.13,2,5,5.13,5,9c0,5.25,7,13,7,13s7-7.75,7-13C19,5.13,15.87,2,12,2z M12,11.5c-1.38,0-2.5-1.12-2.5-2.5s1.12-2.5,2.5-2.5s2.5,1.12,2.5,2.5S13.38,11.5,12,11.5z" />
+                            </svg>
+                        </div>
+                        <h3>Project Implementation Guidance</h3>
+                        <p>Ongoing support and direction during the execution phase to ensure design integrity is
+                            maintained.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultation Process -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="section-header" data-aos="fade-up">
+                        <span class="section-subtitle">Our Approach</span>
+                        <h2 class="section-title">The Consultation Process</h2>
+                        <p class="section-description">A structured methodology that ensures your consultation delivers
+                            tangible value and clear direction.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="consult-process-step">
+                        <div class="consult-step-number">01</div>
+                        <h4>Discovery Session</h4>
+                        <p>In-depth discussion to understand your vision, needs, challenges, and project parameters.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="consult-process-step">
+                        <div class="consult-step-number">02</div>
+                        <h4>Site Assessment</h4>
+                        <p>Comprehensive evaluation of your space, measurements, and documentation of existing
+                            conditions.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="consult-process-step">
+                        <div class="consult-step-number">03</div>
+                        <h4>Strategy Development</h4>
+                        <p>Creation of tailored design solutions, concepts, and recommendations based on your specific
+                            needs.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="consult-process-step">
+                        <div class="consult-step-number">04</div>
+                        <h4>Implementation Plan</h4>
+                        <p>Detailed guidance on next steps, timeline, budget considerations, and resource
+                            recommendations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultation Packages -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="section-header" data-aos="fade-up">
+                        <span class="section-subtitle">Our Offerings</span>
+                        <h2 class="section-title">Consultation Packages</h2>
+                        <p class="section-description">Flexible consultation options designed to meet diverse project
+                            needs and budgets.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="consult-package-card">
+                        <div class="consult-package-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M12,20c-4.41,0-8-3.59-8-8s3.59-8,8-8s8,3.59,8,8S16.41,20,12,20z M12,11c0.55,0,1,0.45,1,1v4c0,0.55-0.45,1-1,1s-1-0.45-1-1v-4C11,11.45,11.45,11,12,11z M12,7c0.55,0,1,0.45,1,1s-0.45,1-1,1s-1-0.45-1-1S11.45,7,12,7z" />
+                            </svg>
+                        </div>
+                        <h3>Essential Consultation</h3>
+                        <div class="consult-package-price">$295<span>/session</span></div>
+                        <ul class="consult-package-features">
+                            <li>90-minute in-depth consultation</li>
+                            <li>Initial design assessment</li>
+                            <li>Basic space planning guidance</li>
+                            <li>Color & material recommendations</li>
+                            <li>Written summary of recommendations</li>
+                            <li>Follow-up email support (7 days)</li>
+                        </ul>
+                        <a href="#consultation-form" class="btn btn-outline-primary w-100">Select Package</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="consult-package-card featured">
+                        <div class="consult-package-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21,7H3C2.45,7,2,6.55,2,6s0.45-1,1-1h18c0.55,0,1,0.45,1,1S21.55,7,21,7z M18,9H6C5.45,9,5,9.45,5,10s0.45,1,1,1h12c0.55,0,1-0.45,1-1S18.55,9,18,9z M21,17H3c-0.55,0-1,0.45-1,1s0.45,1,1,1h18c0.55,0,1-0.45,1-1S21.55,17,21,17z M18,13H6c-0.55,0-1,0.45-1,1s0.45,1,1,1h12c0.55,0,1-0.45,1-1S18.55,13,18,13z" />
+                            </svg>
+                        </div>
+                        <h3>Comprehensive Package</h3>
+                        <div class="consult-package-price">$695<span>/package</span></div>
+                        <ul class="consult-package-features">
+                            <li>3-hour extended consultation</li>
+                            <li>Detailed design concept development</li>
+                            <li>Comprehensive space planning</li>
+                            <li>Furniture layout & selection guidance</li>
+                            <li>Material & finish specifications</li>
+                            <li>Budget planning assistance</li>
+                            <li>Detailed written report</li>
+                            <li>30-day follow-up support</li>
+                        </ul>
+                        <a href="#consultation-form" class="btn btn-primary w-100">Select Package</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="consult-package-card">
+                        <div class="consult-package-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19,2H5C3.9,2,3,2.9,3,4v16c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V4C21,2.9,20.1,2,19,2z M19,20H5V4h14V20z M7,10h10v2H7V10z M7,14h7v2H7V14z" />
+                            </svg>
+                        </div>
+                        <h3>Ongoing Support</h3>
+                        <div class="consult-package-price">$195<span>/month</span></div>
+                        <ul class="consult-package-features">
+                            <li>Monthly 60-minute check-in sessions</li>
+                            <li>Ongoing design guidance</li>
+                            <li>Project implementation support</li>
+                            <li>Vendor & contractor coordination</li>
+                            <li>Material sourcing assistance</li>
+                            <li>Priority email support</li>
+                            <li>Flexible cancellation</li>
+                        </ul>
+                        <a href="#consultation-form" class="btn btn-outline-primary w-100">Select Package</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section-padding bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="section-header" data-aos="fade-up">
+                        <span class="section-subtitle">Client Feedback</span>
+                        <h2 class="section-title text-white">What Our Clients Say</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="consult-testimonial-card">
+                        <div class="consult-testimonial-content">
+                            <p>"The consultation with Luxe Studio completely transformed our approach to our home
+                                renovation. Their insights saved us thousands and helped us avoid costly mistakes."</p>
+                        </div>
+                        <div class="consult-testimonial-author">
+                            <img src="assets/images/emma.html"
+                                alt="Jennifer Martinez">
+                            <div>
+                                <h5>Jennifer Martinez</h5>
+                                <span>Residential Client</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="consult-testimonial-card">
+                        <div class="consult-testimonial-content">
+                            <p>"As a business owner, I needed professional guidance for our office redesign. Luxe
+                                Studio's consultation provided the clarity and direction we needed to move forward
+                                confidently."</p>
+                        </div>
+                        <div class="consult-testimonial-author">
+                            <img src="assets/images/david.jpeg"
+                                alt="David Thompson">
+                            <div>
+                                <h5>David Thompson</h5>
+                                <span>Commercial Client</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="consult-testimonial-card">
+                        <div class="consult-testimonial-content">
+                            <p>"I was overwhelmed with choices for my new apartment. The consultation helped me define
+                                my style, create a cohesive plan, and make confident decisions about furniture and
+                                finishes."</p>
+                        </div>
+                        <div class="consult-testimonial-author">
+                            <img src="assets/images/sarah.jpeg"
+                                alt="Amanda Roberts">
+                            <div>
+                                <h5>Amanda Roberts</h5>
+                                <span>Residential Client</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultation Form -->
+    <section class="consult-form-section" id="consultation-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="consult-form-container" data-aos="fade-up">
+                        <div class="consult-form-header">
+                            <h2>Schedule Your Consultation</h2>
+                            <p>Complete the form below and we'll contact you within 24 hours to schedule your design
+                                consultation.</p>
+                        </div>
+                        <form id="consultationForm">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="firstName" class="form-label">First Name</label>
+                                        <input type="text" class="form-control" id="firstName" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="lastName" class="form-label">Last Name</label>
+                                        <input type="text" class="form-control" id="lastName" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="email" class="form-label">Email Address</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="phone" class="form-label">Phone Number</label>
+                                        <input type="tel" class="form-control" id="phone">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="projectType" class="form-label">Project Type</label>
+                                <select class="form-select" id="projectType" required>
+                                    <option value="" selected disabled>Select your project type</option>
+                                    <option value="residential">Residential</option>
+                                    <option value="commercial">Commercial</option>
+                                    <option value="hospitality">Hospitality</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="consultationPackage" class="form-label">Consultation Package</label>
+                                <select class="form-select" id="consultationPackage" required>
+                                    <option value="" selected disabled>Select a package</option>
+                                    <option value="essential">Essential Consultation ($295)</option>
+                                    <option value="comprehensive">Comprehensive Package ($695)</option>
+                                    <option value="ongoing">Ongoing Support ($195/month)</option>
+                                    <option value="unsure">Not Sure - Need Guidance</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="projectDescription" class="form-label">Project Description</label>
+                                <textarea class="form-control" id="projectDescription" rows="4"
+                                    placeholder="Please describe your project, goals, and any specific challenges you're facing..."></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="timeline" class="form-label">Project Timeline</label>
+                                <select class="form-select" id="timeline">
+                                    <option value="" selected disabled>Select your timeline</option>
+                                    <option value="immediate">Immediate (Within 1 month)</option>
+                                    <option value="short-term">Short-term (1-3 months)</option>
+                                    <option value="medium-term">Medium-term (3-6 months)</option>
+                                    <option value="long-term">Long-term (6+ months)</option>
+                                    <option value="exploring">Just Exploring Options</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="budget" class="form-label">Project Budget</label>
+                                <select class="form-select" id="budget">
+                                    <option value="" selected disabled>Select your budget range</option>
+                                    <option value="under-10k">Under $10,000</option>
+                                    <option value="10k-25k">$10,000 - $25,000</option>
+                                    <option value="25k-50k">$25,000 - $50,000</option>
+                                    <option value="50k-100k">$50,000 - $100,000</option>
+                                    <option value="over-100k">Over $100,000</option>
+                                    <option value="unsure">Not Sure - Need Guidance</option>
+                                </select>
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="newsletter">
+                                <label class="form-check-label" for="newsletter">Subscribe to our newsletter for design
+                                    tips and inspiration</label>
+                            </div>
+                            <div class="text-center mt-4">
+                                <button type="submit" class="btn btn-primary btn-lg">Submit Request</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="consult-cta-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+                    <h2 class="section-title text-white">Have Questions About Our Consultation Services?</h2>
+                    <p class="section-description text-light mb-4">Contact us directly for more information or to
+                        discuss your specific project needs.</p>
+                    <a href="mailto:consultation@luxestudio.com" class="btn btn-primary me-3">Email Us</a>
+                    <a href="tel:+15551234567" class="btn btn-outline-light">Call Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<!-- Footer -->
+<!-- Font Awesome (required for icons) -->
+<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <!-- Brand -->
+            <div class="col-lg-4 mb-4">
+                <div class="footer-brand">
+                    <span class="brand-text">LUXE</span>
+                    <span class="brand-subtitle">STUDIO</span>
+                </div>
+                <p class="footer-description">
+                    Creating extraordinary spaces that inspire and elevate everyday living
+                    through visionary architecture and interior design.
+                </p>
+            </div>
+
+            <!-- Services -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5>Services</h5>
+                <ul class="footer-links">
+                    <li><a href="architecture">Architecture</a></li>
+                    <li><a href="interior">Interior Design</a></li>
+                    <li><a href="space-planning">Space Planning</a></li>
+                    <li><a href="consultation">Consultation</a></li>
+                </ul>
+            </div>
+
+            <!-- Company -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5>Company</h5>
+                <ul class="footer-links">
+                    <li><a href="about">About Us</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="blog">Blog</a></li>
+                    <li><a href="index.html#process">Process</a></li>
+                </ul>
+            </div>
+
+            <!-- Resources -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5>Resources</h5>
+                <ul class="footer-links">
+                    <li><a href="design">Design Guide</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Press Kit</a></li>
+                    <li><a href="careers">Careers</a></li>
+                </ul>
+            </div>
+
+            <!-- Social -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5>Follow Us</h5>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <hr class="footer-divider">
+
+        <!-- Bottom -->
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="footer-copyright">
+                    © 2026 Luxe Studio. All rights reserved.
+                </p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <ul class="footer-legal">
+                    <li><a href="privacy-policy">Privacy Policy</a></li>
+                    <li><a href="terms-condition">Terms of Service</a></li>
+                    <li><a href="faq">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 15L12 9L6 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+        </svg>
+    </button>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Animation Library -->
+    <script src="assets/js/aos.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/script.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+
+        // Form submission handling
+        document.getElementById('consultationForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // In a real implementation, you would send the form data to your server
+            // For this example, we'll just show an alert
+            alert('Thank you for your consultation request! We will contact you within 24 hours to schedule your session.');
+
+            // Reset the form
+            this.reset();
+        });
+    </script>
+</body>
+
+
+<!-- Mirrored from https://architecture-interior-eight.vercel.app/consultation by HTTrack Website Copier/3.x [XR&CO], Wed, 11 Nov 2026 20:40:12 GMT -->
+</html>
