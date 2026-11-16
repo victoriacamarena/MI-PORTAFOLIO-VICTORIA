@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from https://architecture-interior-eight.vercel.app/faq by HTTrack Website Copier/3.x [XR&CO], Mon, 16 Nov 2026 21:40:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe Studio - Frequently Asked Questions</title>
+    <meta name="description"
+        content="Find answers to common questions about our architecture and interior design process, pricing, timelines, and services.">
+    <meta name="keywords" content="FAQ, architecture questions, interior design FAQ, design process, Luxe Studio">
+    <link rel="icon" href="assets/images/icon.png">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- AOS Animation Library -->
+    <link href="assets/css/aos.css" rel="stylesheet">
+
+    <!-- Font Awesome (for FAQ icons) -->
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Main Custom CSS (existing site theme) -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Navigation (identical to Luxe Studio main site) -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="brand-text">LUXE</span>
+                <span class="brand-subtitle">STUDIO</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvas">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                         <li class="nav-item"><a class="nav-link" href="home2">Home2</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#process">Process</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#blog">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="faq">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- FAQ Hero Section (unique to FAQ page, uses new classes) -->
+    <section class="faq-hero">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-8 mx-auto" data-aos="fade-up">
+                    <h1 class="faq-hero-title">Questions? We Have Answers</h1>
+                    <div class="faq-divider"></div>
+                    <p class="faq-hero-subtitle">
+                        Everything you need to know about our design philosophy, process, investment, and collaboration. 
+                        Can't find what you're looking for? Feel free to reach out.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Main Content: Accordion Section -->
+    <section class="faq-main-section section-padding">
+        <div class="container faq-container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <!-- Bootstrap Accordion with custom faq-accordion class -->
+                    <div class="accordion faq-accordion" id="faqAccordion">
+                        
+                        <!-- FAQ Item 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                                    <span>What is your design process from start to finish?</span>
+                                    <span class="faq-icon-wrapper"><i class="fas fa-plus"></i></span>
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="faq-answer-content">
+                                        <p>Our collaborative design journey unfolds in four distinct phases:</p>
+                                        <ul>
+                                            <li><strong>Discovery:</strong> In-depth consultation, site analysis, and understanding your vision, lifestyle, and project goals.</li>
+                                            <li><strong>Concept:</strong> Mood boards, spatial planning, and initial design direction to capture the essence of the space.</li>
+                                            <li><strong>Design Development:</strong> Detailed drawings, 3D visualizations, material selection, and budget alignment.</li>
+                                            <li><strong>Execution & Management:</strong> Construction oversight, quality control, and flawless delivery.</li>
+                                        </ul>
+                                        <p>We remain transparent at every stage, ensuring your dream becomes reality.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                    <span>How much does a typical project cost?</span>
+                                    <span class="faq-icon-wrapper"><i class="fas fa-plus"></i></span>
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="faq-answer-content">
+                                        <p>Each project is unique, and investment varies based on scope, scale, material selections, and complexity. We provide detailed fee proposals after the initial consultation. Generally, our services are structured as:</p>
+                                        <ul>
+                                            <li>Fixed fee for full architectural & interior design packages</li>
+                                            <li>Hourly consultation for specific design advisory</li>
+                                            <li>Phased payment plans aligned with milestones</li>
+                                        </ul>
+                                        <p>Contact us for a personalized estimate — we're committed to transparency with no hidden costs.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                    <span>Do you offer both architecture and interior design under one roof?</span>
+                                    <span class="faq-icon-wrapper"><i class="fas fa-plus"></i></span>
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="faq-answer-content">
+                                        <p>Absolutely! Luxe Studio is a full-service firm integrating architecture, interior architecture, and interior design seamlessly. This holistic approach ensures cohesive aesthetics, functional flow, and efficient project management. From structural shell to curated furniture, we craft spaces that tell one harmonious story.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                    <span>What is the typical timeline for a residential project?</span>
+                                    <span class="faq-icon-wrapper"><i class="fas fa-plus"></i></span>
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="faq-answer-content">
+                                        <p>Timelines depend on project complexity. A full home renovation or custom build usually takes 6–12 months from concept to completion. Interior-only projects average 3–6 months. During our discovery call, we'll map out realistic milestones, including design, permitting, procurement, and construction phases.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                                    <span>Do you work on commercial or hospitality projects?</span>
+                                    <span class="faq-icon-wrapper"><i class="fas fa-plus"></i></span>
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="faq-answer-content">
+                                        <p>Yes — we have extensive experience designing boutique hotels, corporate headquarters, retail spaces, and high-end restaurants. Our commercial portfolio blends brand identity with human-centric design, elevating customer experience and operational efficiency. View our portfolio for inspiring case studies.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+                                    <span>Can you help with sustainable & eco-friendly design?</span>
+                                    <span class="faq-icon-wrapper"><i class="fas fa-plus"></i></span>
+                                </button>
+                            </h2>
+                            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="faq-answer-content">
+                                        <p>Sustainability is woven into our design ethos. We incorporate passive solar strategies, energy-efficient glazing, low-VOC materials, and reclaimed elements wherever possible. We also guide clients toward LEED certifications or WELL building standards, balancing luxury with environmental responsibility.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 7 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7">
+                                    <span>Do you handle permits and contractor coordination?</span>
+                                    <span class="faq-icon-wrapper"><i class="fas fa-plus"></i></span>
+                                </button>
+                            </h2>
+                            <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="faq-answer-content">
+                                        <p>Yes, project management is at our core. We liaise with local authorities for permits, coordinate with trusted contractors, and handle procurement. Our team ensures seamless communication, budget control, and schedule adherence so you can focus on the excitement of your new space.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 8 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8" aria-expanded="false" aria-controls="faq8">
+                                    <span>How do I start a project with Luxe Studio?</span>
+                                    <span class="faq-icon-wrapper"><i class="fas fa-plus"></i></span>
+                                </button>
+                            </h2>
+                            <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="faq-answer-content">
+                                        <p>Starting is simple — reach out via our contact form or give us a call. We'll schedule an initial discovery call (complimentary) to understand your vision, discuss potential scope, and share our approach. After that, we propose a tailored roadmap and fee structure. Let's bring your vision to life.</p>
+                                        <p><strong>Email:</strong> hello@luxestudio.com &nbsp;|&nbsp; <strong>Phone:</strong> (555) 123-4567</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Banner (Contact prompt) -->
+            <div class="row mt-5" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-12">
+                    <div class="faq-cta-box">
+                        <h3 class="faq-cta-title">Still have questions?</h3>
+                        <p class="faq-cta-text">We'd love to hear about your project and answer any specific queries. Schedule a complimentary consultation.</p>
+                        <a href="index.html#contact" class="btn faq-cta-btn">Start a Conversation <i class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (identical to Luxe Studio) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Brand -->
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand">
+                        <span class="brand-text">LUXE</span>
+                        <span class="brand-subtitle">STUDIO</span>
+                    </div>
+                    <p class="footer-description">
+                        Creating extraordinary spaces that inspire and elevate everyday living
+                        through visionary architecture and interior design.
+                    </p>
+                </div>
+
+                <!-- Services -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="architecture">Architecture</a></li>
+                        <li><a href="interior">Interior Design</a></li>
+                        <li><a href="space-planning">Space Planning</a></li>
+                        <li><a href="consultation">Consultation</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Company</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#portfolio">Portfolio</a></li>
+                        <li><a href="index.html#blog">Blog</a></li>
+                        <li><a href="index.html#process">Process</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Resources</h5>
+                    <ul class="footer-links">
+                        <li><a href="design">Design Guide</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Press Kit</a></li>
+                        <li><a href="careers">Careers</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Follow Us</h5>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="footer-divider">
+
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="footer-copyright">
+                        © 2026 Luxe Studio. All rights reserved.
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <ul class="footer-legal">
+                        <li><a href="privacy-policy">Privacy Policy</a></li>
+                        <li><a href="terms-condition">Terms of Service</a></li>
+                        <li><a href="faq">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 15L12 9L6 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+    </button>
+
+    <!-- Scripts -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+
+        // Navbar background change on scroll
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('mainNav');
+            if (window.scrollY > 50) {
+                navbar.classList.add('navbar-scrolled');
+            } else {
+                navbar.classList.remove('navbar-scrolled');
+            }
+        });
+
+        // Scroll to top button visibility and functionality
+        const scrollBtn = document.getElementById('scrollToTop');
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 500) {
+                scrollBtn.classList.add('visible');
+            } else {
+                scrollBtn.classList.remove('visible');
+            }
+        });
+        scrollBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Custom FAQ accordion icon toggles (plus/minus) without conflicting with Bootstrap events
+        // This replaces default chevron and adds elegant plus/minus animation.
+        document.querySelectorAll('.faq-accordion .accordion-button').forEach(button => {
+            const iconSpan = button.querySelector('.faq-icon-wrapper i');
+            if (!iconSpan) return;
+            
+            // Initial state: if collapsed by default, show plus. For expanded (show) we set minus.
+            const targetCollapse = document.querySelector(button.getAttribute('data-bs-target'));
+            if (targetCollapse && targetCollapse.classList.contains('show')) {
+                iconSpan.classList.remove('fa-plus');
+                iconSpan.classList.add('fa-minus');
+            } else {
+                iconSpan.classList.remove('fa-minus');
+                iconSpan.classList.add('fa-plus');
+            }
+
+            // Listen to Bootstrap show/hide events to toggle icon
+            if (targetCollapse) {
+                targetCollapse.addEventListener('show.bs.collapse', () => {
+                    iconSpan.classList.remove('fa-plus');
+                    iconSpan.classList.add('fa-minus');
+                });
+                targetCollapse.addEventListener('hide.bs.collapse', () => {
+                    iconSpan.classList.remove('fa-minus');
+                    iconSpan.classList.add('fa-plus');
+                });
+            }
+        });
+
+        // Additional: ensures active nav link highlighting (optional)
+        const currentLocation = location.pathname;
+        const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+        navLinks.forEach(link => {
+            if(link.getAttribute('href') === 'faq.html' && currentLocation.includes('faq')) {
+                link.classList.add('active');
+            } else if(link.getAttribute('href') === 'index.html' && (currentLocation === '/' || currentLocation === 'index.html')) {
+                link.classList.add('active');
+            }
+        });
+    </script>
+    <!-- Custom main site script (if needed for other interactions) -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+
+<!-- Mirrored from https://architecture-interior-eight.vercel.app/faq by HTTrack Website Copier/3.x [XR&CO], Mon, 16 Nov 2026 21:40:04 GMT -->
+</html>

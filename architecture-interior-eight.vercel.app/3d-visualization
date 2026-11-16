@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from https://architecture-interior-eight.vercel.app/3d-visualization by HTTrack Website Copier/3.x [XR&CO], Mon, 16 Nov 2026 21:39:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Visualization - Luxe Studio</title>
+    <meta name="description" content="Photorealistic 3D renderings and virtual walkthroughs by Luxe Studio — see your project before construction begins.">
+    <link rel="icon" href="assets/images/icon.png">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+
+    <!-- AOS Animation Library -->
+    <link href="assets/css/aos.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="logo-animation">
+                <span class="logo-text">LUXE</span>
+                <div class="logo-line"></div>
+                <span class="logo-subtitle">STUDIO</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="brand-text">LUXE</span>
+                <span class="brand-subtitle">STUDIO</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvas">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="home2">Home2</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#process">Process</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#blog">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="viz-hero">
+        <canvas class="viz-hero__canvas" id="heroCanvas"></canvas>
+        <div class="viz-hero__overlay"></div>
+        <div class="viz-hero__content" data-aos="fade-up">
+            <span class="viz-hero__eyebrow">Luxe Studio · Service</span>
+            <h1 class="viz-hero__title">
+                See It Before <span>You Build It</span>
+            </h1>
+            <p class="viz-hero__desc">
+                Photorealistic renderings, animated walkthroughs, and interactive models — your project brought to life before a single wall goes up.
+            </p>
+            <a href="index.html#contact" class="viz-hero__cta">
+                <i class="fas fa-cube"></i>
+                Request a Render
+            </a>
+        </div>
+    </section>
+
+    <!-- ===================== STATS ===================== -->
+    <section class="viz-stats">
+        <div class="container">
+            <div class="viz-stats__grid">
+                <div class="viz-stat" data-aos="fade-up" data-aos-delay="100">
+                    <div class="viz-stat__value">500+</div>
+                    <div class="viz-stat__label">Renders Delivered</div>
+                </div>
+                <div class="viz-stat" data-aos="fade-up" data-aos-delay="200">
+                    <div class="viz-stat__value">4K</div>
+                    <div class="viz-stat__label">Output Resolution</div>
+                </div>
+                <div class="viz-stat" data-aos="fade-up" data-aos-delay="300">
+                    <div class="viz-stat__value">48h</div>
+                    <div class="viz-stat__label">Avg. Turnaround</div>
+                </div>
+                <div class="viz-stat" data-aos="fade-up" data-aos-delay="400">
+                    <div class="viz-stat__value">100%</div>
+                    <div class="viz-stat__label">Client Approval Rate</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PROCESS ===================== -->
+    <section class="viz-process">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="section-header" data-aos="fade-up">
+                        <span class="section-subtitle">How It Works</span>
+                        <h2 class="section-title">From Blueprint to<br>Photorealistic Scene</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="viz-process__steps" data-aos="fade-up" data-aos-delay="150">
+                <div class="viz-process__connector"></div>
+
+                <div class="viz-step">
+                    <div class="viz-step__icon"><i class="fas fa-file-alt"></i></div>
+                    <div class="viz-step__num">Step 01</div>
+                    <div class="viz-step__title">Brief &amp; Plans</div>
+                    <div class="viz-step__desc">Share your drawings, mood board, and material selections with our team.</div>
+                </div>
+
+                <div class="viz-step">
+                    <div class="viz-step__icon"><i class="fas fa-drafting-compass"></i></div>
+                    <div class="viz-step__num">Step 02</div>
+                    <div class="viz-step__title">3D Modelling</div>
+                    <div class="viz-step__desc">We build a precise digital twin of your space in our modelling pipeline.</div>
+                </div>
+
+                <div class="viz-step">
+                    <div class="viz-step__icon"><i class="fas fa-palette"></i></div>
+                    <div class="viz-step__num">Step 03</div>
+                    <div class="viz-step__title">Texturing &amp; Lighting</div>
+                    <div class="viz-step__desc">Photorealistic materials, HDR lighting, and accurate sun studies applied.</div>
+                </div>
+
+                <div class="viz-step">
+                    <div class="viz-step__icon"><i class="fas fa-sync-alt"></i></div>
+                    <div class="viz-step__num">Step 04</div>
+                    <div class="viz-step__title">Revision Rounds</div>
+                    <div class="viz-step__desc">Up to three revision cycles to ensure every detail matches your vision.</div>
+                </div>
+
+                <div class="viz-step">
+                    <div class="viz-step__icon"><i class="fas fa-cloud-download-alt"></i></div>
+                    <div class="viz-step__num">Step 05</div>
+                    <div class="viz-step__title">Final Delivery</div>
+                    <div class="viz-step__desc">4K stills, animated walk-throughs, or VR-ready files — your choice.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== GALLERY ===================== -->
+    <section class="viz-gallery">
+        <div class="container-fluid px-4">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="section-header" data-aos="fade-up">
+                        <span class="section-subtitle">Render Gallery</span>
+                        <h2 class="section-title">Recent Visualizations</h2>
+                        <p class="section-description">A curated selection of photorealistic renders across residential, commercial, and hospitality projects.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="viz-gallery__grid" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="viz-gallery__item viz-gallery__item--wide">
+                    <img src="assets/images/modern.jpeg" alt="Modern Villa Exterior Render">
+                    <div class="viz-gallery__caption">
+                        <h4>Modern Villa — Exterior</h4>
+                        <span>Residential · 4K Render</span>
+                    </div>
+                </div>
+
+                <div class="viz-gallery__item viz-gallery__item--tall">
+                    <img src="assets/images/penthouse.jpeg" alt="Luxury Penthouse Interior">
+                    <div class="viz-gallery__caption">
+                        <h4>Sky Penthouse — Living</h4>
+                        <span>Interior · Animated</span>
+                    </div>
+                </div>
+
+                <div class="viz-gallery__item">
+                    <img src="assets/images/corporate.jpeg" alt="Corporate Headquarters">
+                    <div class="viz-gallery__caption">
+                        <h4>HQ Atrium</h4>
+                        <span>Commercial · VR Ready</span>
+                    </div>
+                </div>
+
+                <div class="viz-gallery__item">
+                    <img src="assets/images/interior.jpeg" alt="Interior Design Render">
+                    <div class="viz-gallery__caption">
+                        <h4>Master Suite</h4>
+                        <span>Interior · 4K Render</span>
+                    </div>
+                </div>
+
+   
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== INTERACTIVE 3D VIEWER ===================== -->
+    <section class="viz-viewer">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-7" data-aos="fade-right">
+                    <div class="viz-viewer__shell">
+                        <canvas id="viz3dCanvas" class="viz-viewer__canvas3d"></canvas>
+                        <div class="viz-viewer__label">Interactive 3D Preview · Drag to rotate</div>
+                        <div class="viz-viewer__badge">Live Demo</div>
+                        <div class="viz-viewer__controls">
+                            <button class="viz-viewer__btn" id="resetCam" title="Reset Camera"><i class="fas fa-redo"></i></button>
+                            <button class="viz-viewer__btn" id="toggleWire" title="Toggle Wireframe"><i class="fas fa-vector-square"></i></button>
+                            <button class="viz-viewer__btn" id="toggleLight" title="Toggle Light"><i class="fas fa-sun"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 viz-viewer__info" data-aos="fade-left">
+                    <div class="section-header" style="text-align:left;">
+                        <span class="section-subtitle">Interactive</span>
+                        <h3>Explore Your Space<br>in Real Time</h3>
+                    </div>
+                    <p>Our web-based 3D viewer lets you orbit, zoom, and inspect every detail of your project before a single decision is finalised.</p>
+                    <div class="viz-viewer__tags">
+                        <span class="viz-tag">WebGL Viewer</span>
+                        <span class="viz-tag">360° Orbit</span>
+                        <span class="viz-tag">Wireframe Mode</span>
+                        <span class="viz-tag">VR Compatible</span>
+                        <span class="viz-tag">No App Required</span>
+                    </div>
+                    <a href="index.html#contact" class="viz-hero__cta">
+                        <i class="fas fa-paper-plane"></i>
+                        Get Your Own Viewer
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== TECH STACK ===================== -->
+    <section class="viz-tech">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="section-header" data-aos="fade-up">
+                        <span class="section-subtitle">Our Toolkit</span>
+                        <h2 class="section-title">Industry-Leading Software</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="viz-tech__grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="viz-tech__item">
+                    <div class="viz-tech__icon"><i class="fas fa-cube"></i></div>
+                    <div class="viz-tech__name">3ds Max</div>
+                </div>
+                <div class="viz-tech__item">
+                    <div class="viz-tech__icon"><i class="fas fa-film"></i></div>
+                    <div class="viz-tech__name">V-Ray</div>
+                </div>
+                <div class="viz-tech__item">
+                    <div class="viz-tech__icon"><i class="fas fa-drafting-compass"></i></div>
+                    <div class="viz-tech__name">Rhino 3D</div>
+                </div>
+                <div class="viz-tech__item">
+                    <div class="viz-tech__icon"><i class="fas fa-layer-group"></i></div>
+                    <div class="viz-tech__name">Blender</div>
+                </div>
+                <div class="viz-tech__item">
+                    <div class="viz-tech__icon"><i class="fas fa-magic"></i></div>
+                    <div class="viz-tech__name">Lumion</div>
+                </div>
+                <div class="viz-tech__item">
+                    <div class="viz-tech__icon"><i class="fas fa-vr-cardboard"></i></div>
+                    <div class="viz-tech__name">Unreal Engine</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PACKAGES ===================== -->
+    <section class="viz-packages">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="section-header" data-aos="fade-up">
+                        <span class="section-subtitle">Packages</span>
+                        <h2 class="section-title">Choose Your Render Plan</h2>
+                        <p class="section-description">Every project is unique — pick the package that fits your scope, or reach out for a custom quote.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="viz-pkg-grid">
+
+                <!-- Essential -->
+                <div class="viz-pkg" data-aos="fade-up" data-aos-delay="100">
+                    <div class="viz-pkg__tier">Essential</div>
+                    <div class="viz-pkg__name">Still Render</div>
+                    <div class="viz-pkg__divider"></div>
+                    <ul class="viz-pkg__list">
+                        <li><i class="fas fa-check"></i> Up to 5 camera angles</li>
+                        <li><i class="fas fa-check"></i> 2K resolution output</li>
+                        <li><i class="fas fa-check"></i> 2 revision rounds</li>
+                        <li><i class="fas fa-check"></i> Interior or exterior</li>
+                        <li><i class="fas fa-check"></i> 5–7 business day delivery</li>
+                    </ul>
+                    <a href="index.html#contact" class="viz-pkg__cta">Get a Quote</a>
+                </div>
+
+                <!-- Signature (featured) -->
+                <div class="viz-pkg viz-pkg--featured" data-aos="fade-up" data-aos-delay="200">
+                    <div class="viz-pkg__badge">Most Popular</div>
+                    <div class="viz-pkg__tier">Signature</div>
+                    <div class="viz-pkg__name">Full Walkthrough</div>
+                    <div class="viz-pkg__divider"></div>
+                    <ul class="viz-pkg__list">
+                        <li><i class="fas fa-check"></i> Unlimited camera angles</li>
+                        <li><i class="fas fa-check"></i> 4K resolution stills</li>
+                        <li><i class="fas fa-check"></i> 60s animated walkthrough</li>
+                        <li><i class="fas fa-check"></i> 3 revision rounds</li>
+                        <li><i class="fas fa-check"></i> Interior + Exterior</li>
+                        <li><i class="fas fa-check"></i> 48h priority turnaround</li>
+                    </ul>
+                    <a href="index.html#contact" class="viz-pkg__cta">Get a Quote</a>
+                </div>
+
+                <!-- Prestige -->
+                <div class="viz-pkg" data-aos="fade-up" data-aos-delay="300">
+                    <div class="viz-pkg__tier">Prestige</div>
+                    <div class="viz-pkg__name">VR Experience</div>
+                    <div class="viz-pkg__divider"></div>
+                    <ul class="viz-pkg__list">
+                        <li><i class="fas fa-check"></i> Full 3D virtual tour</li>
+                        <li><i class="fas fa-check"></i> VR headset compatible</li>
+                        <li><i class="fas fa-check"></i> Web-hosted interactive viewer</li>
+                        <li><i class="fas fa-check"></i> Day / Night / Seasonal modes</li>
+                        <li><i class="fas fa-check"></i> Unlimited revisions</li>
+                        <li><i class="fas fa-check"></i> Dedicated project manager</li>
+                    </ul>
+                    <a href="index.html#contact" class="viz-pkg__cta">Get a Quote</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CTA BANNER ===================== -->
+    <section class="viz-cta-banner">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-7" data-aos="fade-right">
+                    <span class="viz-cta-banner__eyebrow">Ready to visualise?</span>
+                    <h2 class="viz-cta-banner__title">Transform Your Drawings Into Stunning Reality</h2>
+                    <p class="viz-cta-banner__desc">Send us your plans today and receive a free render preview within 24 hours.</p>
+                </div>
+                <div class="col-lg-5" data-aos="fade-left">
+                    <div class="viz-cta-banner__actions justify-content-lg-end">
+                        <a href="index.html#contact" class="viz-btn-gold">
+                            <i class="fas fa-cube"></i> Start Your Project
+                        </a>
+                        <a href="index.html#portfolio" class="viz-btn-outline-light">
+                            <i class="fas fa-images"></i> View Portfolio
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER (identical to index.html) ===================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand">
+                        <span class="brand-text">LUXE</span>
+                        <span class="brand-subtitle">STUDIO</span>
+                    </div>
+                    <p class="footer-description">Creating extraordinary spaces that inspire and elevate everyday living through visionary architecture and interior design.</p>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="architecture">Architecture</a></li>
+                        <li><a href="interior">Interior Design</a></li>
+                        <li><a href="space-planning">Space Planning</a></li>
+                        <li><a href="consultation">Consultation</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Company</h5>
+                    <ul class="footer-links">
+                        <li><a href="about">About Us</a></li>
+                        <li><a href="index.html#portfolio">Portfolio</a></li>
+                        <li><a href="blog">Blog</a></li>
+                        <li><a href="index.html#process">Process</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Resources</h5>
+                    <ul class="footer-links">
+                        <li><a href="design">Design Guide</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Press Kit</a></li>
+                        <li><a href="careers">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Follow Us</h5>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="footer-copyright">© 2026 Luxe Studio. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <ul class="footer-legal">
+                        <li><a href="privacy-policy">Privacy Policy</a></li>
+                        <li><a href="terms-condition">Terms of Service</a></li>
+                        <li><a href="faq">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollToTop" class="scroll-to-top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 15L12 9L6 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Animation Library -->
+    <script src="assets/js/aos.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/script.js"></script>
+    <!-- Three.js (r128) -->
+    <script src="../cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <script>
+        /* ---- AOS init ---- */
+        AOS.init({ duration: 800, once: true, offset: 80 });
+
+        /* ---- Scroll-to-top ---- */
+        const scrollBtn = document.getElementById('scrollToTop');
+        window.addEventListener('scroll', () => {
+            scrollBtn.classList.toggle('visible', window.scrollY > 400);
+        });
+        scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+        /* ================================================================
+           HERO PARTICLE CANVAS (vanilla canvas — no Three.js needed here)
+           ================================================================ */
+        (function () {
+            const canvas = document.getElementById('heroCanvas');
+            const ctx = canvas.getContext('2d');
+            let W, H, particles = [], animId;
+            const GOLD = 'rgba(201,169,110,';
+
+            function resize() {
+                W = canvas.width = canvas.offsetWidth;
+                H = canvas.height = canvas.offsetHeight;
+            }
+
+            function createParticles() {
+                particles = [];
+                const count = Math.floor((W * H) / 9000);
+                for (let i = 0; i < count; i++) {
+                    particles.push({
+                        x: Math.random() * W,
+                        y: Math.random() * H,
+                        r: Math.random() * 1.5 + 0.3,
+                        vx: (Math.random() - 0.5) * 0.3,
+                        vy: (Math.random() - 0.5) * 0.3,
+                        a: Math.random()
+                    });
+                }
+            }
+
+            function draw() {
+                ctx.clearRect(0, 0, W, H);
+                particles.forEach(p => {
+                    p.x += p.vx; p.y += p.vy;
+                    if (p.x < 0) p.x = W; if (p.x > W) p.x = 0;
+                    if (p.y < 0) p.y = H; if (p.y > H) p.y = 0;
+                    ctx.beginPath();
+                    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                    ctx.fillStyle = GOLD + p.a + ')';
+                    ctx.fill();
+                });
+
+                // Connect nearby particles with faint lines
+                for (let i = 0; i < particles.length; i++) {
+                    for (let j = i + 1; j < particles.length; j++) {
+                        const dx = particles[i].x - particles[j].x;
+                        const dy = particles[i].y - particles[j].y;
+                        const dist = Math.sqrt(dx * dx + dy * dy);
+                        if (dist < 120) {
+                            ctx.beginPath();
+                            ctx.moveTo(particles[i].x, particles[i].y);
+                            ctx.lineTo(particles[j].x, particles[j].y);
+                            ctx.strokeStyle = GOLD + (0.12 * (1 - dist / 120)) + ')';
+                            ctx.lineWidth = 0.5;
+                            ctx.stroke();
+                        }
+                    }
+                }
+                animId = requestAnimationFrame(draw);
+            }
+
+            resize();
+            createParticles();
+            draw();
+            window.addEventListener('resize', () => { resize(); createParticles(); });
+        })();
+
+        /* ================================================================
+           INTERACTIVE 3D VIEWER  (Three.js)
+           ================================================================ */
+        (function () {
+            const canvas = document.getElementById('viz3dCanvas');
+            if (!canvas) return;
+
+            const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+            renderer.setPixelRatio(window.devicePixelRatio);
+            renderer.shadowMap.enabled = true;
+
+            function setSize() {
+                const w = canvas.parentElement.clientWidth;
+                const h = 520;
+                renderer.setSize(w, h);
+                camera.aspect = w / h;
+                camera.updateProjectionMatrix();
+            }
+
+            const scene = new THREE.Scene();
+            scene.background = new THREE.Color(0x0d0d0d);
+
+            const camera = new THREE.PerspectiveCamera(45, 1, 0.1, 100);
+            camera.position.set(6, 5, 8);
+            camera.lookAt(0, 0, 0);
+
+            // Lights
+            const ambient = new THREE.AmbientLight(0xffffff, 0.4);
+            scene.add(ambient);
+            const sun = new THREE.DirectionalLight(0xfff0d0, 1.2);
+            sun.position.set(8, 12, 6);
+            sun.castShadow = true;
+            scene.add(sun);
+            const gold = new THREE.PointLight(0xc9a96e, 0.8, 20);
+            gold.position.set(-4, 4, -2);
+            scene.add(gold);
+
+            // Grid floor
+            const grid = new THREE.GridHelper(20, 20, 0xc9a96e, 0x222222);
+            grid.material.opacity = 0.3;
+            grid.material.transparent = true;
+            scene.add(grid);
+
+            // Building model (simplified house shape)
+            const matWall = new THREE.MeshStandardMaterial({ color: 0xd8cfc4, roughness: 0.8, metalness: 0.05 });
+            const matGold = new THREE.MeshStandardMaterial({ color: 0xc9a96e, roughness: 0.3, metalness: 0.6 });
+            const matGlass = new THREE.MeshStandardMaterial({ color: 0x8ab4c9, roughness: 0.05, metalness: 0.1, transparent: true, opacity: 0.5 });
+            const matDark = new THREE.MeshStandardMaterial({ color: 0x1a1a1a, roughness: 0.9 });
+
+            // Main body
+            const body = new THREE.Mesh(new THREE.BoxGeometry(4, 2.5, 3), matWall);
+            body.position.set(0, 1.25, 0);
+            body.castShadow = true; body.receiveShadow = true;
+            scene.add(body);
+
+            // Roof slab (flat modern)
+            const roof = new THREE.Mesh(new THREE.BoxGeometry(4.4, 0.15, 3.4), matDark);
+            roof.position.set(0, 2.575, 0);
+            scene.add(roof);
+
+            // Roof overhang accent
+            const overhang = new THREE.Mesh(new THREE.BoxGeometry(4.6, 0.06, 0.2), matGold);
+            overhang.position.set(0, 2.575, 1.8);
+            scene.add(overhang);
+
+            // Windows
+            const winGeo = new THREE.BoxGeometry(0.9, 0.8, 0.05);
+            [[-1.2, 1.4, 1.53], [0.4, 1.4, 1.53], [1.6, 1.4, 1.53]].forEach(([x, y, z]) => {
+                const w = new THREE.Mesh(winGeo, matGlass);
+                w.position.set(x, y, z);
+                scene.add(w);
+                const frame = new THREE.Mesh(new THREE.BoxGeometry(0.96, 0.86, 0.04), matGold);
+                frame.position.set(x, y, z - 0.01);
+                scene.add(frame);
+            });
+
+            // Door
+            const door = new THREE.Mesh(new THREE.BoxGeometry(0.7, 1.2, 0.05), matGlass);
+            door.position.set(0, 0.6, 1.53);
+            scene.add(door);
+            const doorFrame = new THREE.Mesh(new THREE.BoxGeometry(0.76, 1.26, 0.04), matGold);
+            doorFrame.position.set(0, 0.6, 1.52);
+            scene.add(doorFrame);
+
+            // Side wing
+            const wing = new THREE.Mesh(new THREE.BoxGeometry(1.5, 1.6, 3), matWall);
+            wing.position.set(2.75, 0.8, 0);
+            wing.castShadow = true;
+            scene.add(wing);
+            const wingRoof = new THREE.Mesh(new THREE.BoxGeometry(1.7, 0.12, 3.2), matDark);
+            wingRoof.position.set(2.75, 1.66, 0);
+            scene.add(wingRoof);
+
+            // Ground plane
+            const ground = new THREE.Mesh(new THREE.PlaneGeometry(20, 20), new THREE.MeshStandardMaterial({ color: 0x111111 }));
+            ground.rotation.x = -Math.PI / 2;
+            ground.receiveShadow = true;
+            scene.add(ground);
+
+            // Trees (simple cylinders + spheres)
+            function addTree(x, z) {
+                const trunk = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.12, 0.8), new THREE.MeshStandardMaterial({ color: 0x4a3728 }));
+                trunk.position.set(x, 0.4, z);
+                scene.add(trunk);
+                const foliage = new THREE.Mesh(new THREE.SphereGeometry(0.5, 8, 8), new THREE.MeshStandardMaterial({ color: 0x2d5a3d, roughness: 0.9 }));
+                foliage.position.set(x, 1.2, z);
+                scene.add(foliage);
+            }
+            addTree(-3.5, 0.5); addTree(-4, -1); addTree(5.5, 0.5); addTree(5, -1.5);
+
+            setSize();
+            window.addEventListener('resize', setSize);
+
+            // Orbit controls (manual)
+            let isDragging = false, prevX = 0, prevY = 0;
+            let theta = 0.6, phi = 0.55, radius = 12;
+            let wireframe = false, lightOn = true;
+
+            function updateCamera() {
+                camera.position.set(
+                    radius * Math.sin(theta) * Math.cos(phi),
+                    radius * Math.sin(phi),
+                    radius * Math.cos(theta) * Math.cos(phi)
+                );
+                camera.lookAt(0, 1, 0);
+            }
+            updateCamera();
+
+            canvas.addEventListener('mousedown', e => { isDragging = true; prevX = e.clientX; prevY = e.clientY; });
+            window.addEventListener('mouseup', () => isDragging = false);
+            window.addEventListener('mousemove', e => {
+                if (!isDragging) return;
+                theta -= (e.clientX - prevX) * 0.01;
+                phi = Math.max(0.1, Math.min(1.4, phi - (e.clientY - prevY) * 0.008));
+                prevX = e.clientX; prevY = e.clientY;
+                updateCamera();
+            });
+
+            // Touch
+            let lastTouch = null;
+            canvas.addEventListener('touchstart', e => { lastTouch = e.touches[0]; });
+            canvas.addEventListener('touchmove', e => {
+                if (!lastTouch) return;
+                theta -= (e.touches[0].clientX - lastTouch.clientX) * 0.01;
+                phi = Math.max(0.1, Math.min(1.4, phi - (e.touches[0].clientY - lastTouch.clientY) * 0.008));
+                lastTouch = e.touches[0];
+                updateCamera();
+                e.preventDefault();
+            }, { passive: false });
+
+            // Scroll zoom
+            canvas.addEventListener('wheel', e => {
+                radius = Math.max(6, Math.min(20, radius + e.deltaY * 0.02));
+                updateCamera();
+            });
+
+            // Buttons
+            document.getElementById('resetCam').addEventListener('click', () => {
+                theta = 0.6; phi = 0.55; radius = 12; updateCamera();
+            });
+            document.getElementById('toggleWire').addEventListener('click', () => {
+                wireframe = !wireframe;
+                scene.traverse(obj => { if (obj.isMesh && obj.material !== matGlass) obj.material.wireframe = wireframe; });
+            });
+            document.getElementById('toggleLight').addEventListener('click', () => {
+                lightOn = !lightOn;
+                sun.intensity = lightOn ? 1.2 : 0;
+                gold.intensity = lightOn ? 0.8 : 0;
+                ambient.intensity = lightOn ? 0.4 : 1.0;
+            });
+
+            // Render loop
+            const clock = new THREE.Clock();
+            function animate() {
+                requestAnimationFrame(animate);
+                const t = clock.getElapsedTime();
+                gold.position.x = Math.sin(t * 0.5) * 5;
+                gold.position.z = Math.cos(t * 0.5) * 5;
+                renderer.render(scene, camera);
+            }
+            animate();
+        })();
+    </script>
+</body>
+
+<!-- Mirrored from https://architecture-interior-eight.vercel.app/3d-visualization by HTTrack Website Copier/3.x [XR&CO], Mon, 16 Nov 2026 21:39:57 GMT -->
+</html>

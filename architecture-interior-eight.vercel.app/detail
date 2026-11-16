@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from https://architecture-interior-eight.vercel.app/detail by HTTrack Website Copier/3.x [XR&CO], Mon, 16 Nov 2026 21:39:58 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Design Trends for 2025 - Luxe Studio</title>
+    <meta name="description"
+        content="Discover the emerging trends that are shaping the future of architecture and interior design in 2025.">
+     <link rel="icon" href="assets/images/icon.png">
+    <!-- Bootstrap 5 CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- AOS Animation Library -->
+    <link href="assets/css/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="logo-animation">
+                <span class="logo-text">LUXE</span>
+                <div class="logo-line"></div>
+                <span class="logo-subtitle">STUDIO</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="brand-text">LUXE</span>
+                <span class="brand-subtitle">STUDIO</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvas">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+                         <li class="nav-item"><a class="nav-link" href="home2">Home2</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#process">Process</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#blog">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="hero-overlay"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="blog-detail-hero-content" data-aos="fade-up">
+                            <div class="blog-detail-meta">
+                                <span class="blog-detail-date"><i class="far fa-calendar me-2"></i>March 15, 2025</span>
+                                <span class="blog-detail-category"><i class="far fa-folder me-2"></i>Trends</span>
+                                <span class="blog-detail-read-time"><i class="far fa-clock me-2"></i>5 min read</span>
+                            </div>
+                            <h1 class="blog-detail-title">Top Design Trends for 2025</h1>
+                            <div class="blog-detail-author">
+                                <div class="author-avatar">
+                                    <img src="../images.pexels.com/photos/220453/pexels-photo-220453e7fe.jpg?auto=compress&amp;cs=tinysrgb&amp;w=600"
+                                        alt="Author">
+                                </div>
+                                <div class="author-info">
+                                    <span class="author-name">Michael Chen</span>
+                                    <span class="author-title">Senior Design Director</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Blog Content Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="blog-content">
+                        <p class="lead" data-aos="fade-up">The world of architecture and interior design is constantly
+                            evolving, with new trends emerging each year that reflect our changing lifestyles,
+                            technological advancements, and environmental consciousness. As we move further into 2025,
+                            several key design trends are shaping spaces in innovative and exciting ways.</p>
+
+                        <h2 data-aos="fade-up">Biophilic Design Integration</h2>
+                        <p data-aos="fade-up">The connection between nature and human well-being has never been more
+                            emphasized. Biophilic design goes beyond simply adding plants to a space—it's about creating
+                            a deeper connection with natural systems through the use of natural materials, ample natural
+                            light, ventilation, and spatial patterns that reference nature.</p>
+
+                        <img src="../images.pexels.com/photos/1454806/pexels-photo-14548067874.jpg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1"
+                            alt="Biophilic Design" data-aos="fade-up">
+
+                        <p data-aos="fade-up">We're seeing an increase in living walls, large windows that blur the
+                            boundaries between indoors and outdoors, and the use of materials like wood, stone, and
+                            bamboo that bring natural textures indoors. This approach not only enhances aesthetic appeal
+                            but also contributes to improved air quality and mental well-being.</p>
+
+                        <h2 data-aos="fade-up">Sustainable and Eco-Conscious Materials</h2>
+                        <p data-aos="fade-up">Sustainability continues to be a driving force in design decisions.
+                            Clients are increasingly requesting materials with low environmental impact, such as
+                            reclaimed wood, recycled metal, and bio-based products. The focus is on durability,
+                            recyclability, and the reduction of carbon footprint throughout the product lifecycle.</p>
+
+                        <blockquote data-aos="fade-up">
+                            "Good design is sustainable design. It considers environmental impact, social
+                            responsibility, and economic viability in equal measure."
+                        </blockquote>
+
+                        <p data-aos="fade-up">Innovative materials like mycelium (mushroom-based) composites, recycled
+                            glass countertops, and rapidly renewable resources like cork and bamboo are gaining
+                            popularity for their unique aesthetic qualities and environmental benefits.</p>
+
+                        <h2 data-aos="fade-up">Multifunctional and Adaptive Spaces</h2>
+                        <p data-aos="fade-up">The way we use our spaces has fundamentally changed, with homes now
+                            serving as offices, schools, gyms, and sanctuaries. This has led to a demand for flexible,
+                            adaptive designs that can accommodate multiple functions without sacrificing style.</p>
+
+                        <img src="../images.pexels.com/photos/5824876/pexels-photo-58248767874.jpg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1"
+                            alt="Multifunctional Space" data-aos="fade-up">
+
+                        <p data-aos="fade-up">We're implementing innovative solutions such as movable walls, convertible
+                            furniture, and modular systems that can be reconfigured as needs change. The key is creating
+                            spaces that are both highly functional and aesthetically cohesive.</p>
+
+                        <h2 data-aos="fade-up">Warm Minimalism</h2>
+                        <p data-aos="fade-up">The stark minimalism of previous years is giving way to a warmer, more
+                            inviting approach. Warm minimalism maintains the clean lines and uncluttered spaces of
+                            traditional minimalism but introduces texture, organic forms, and subtle color palettes to
+                            create spaces that feel both serene and welcoming.</p>
+
+                        <p data-aos="fade-up">This trend embraces natural materials like wood and stone, soft textiles,
+                            and carefully curated decorative elements that add personality without creating visual
+                            clutter. The result is spaces that feel lived-in and comfortable while maintaining a sense
+                            of order and tranquility.</p>
+
+                        <h2 data-aos="fade-up">Curved Forms and Organic Shapes</h2>
+                        <p data-aos="fade-up">After years of sharp angles and rigid geometries, design is embracing
+                            softer, more organic forms. Curved furniture, arched doorways, and rounded edges are
+                            appearing in interiors, creating a sense of flow and movement that feels more natural and
+                            comforting.</p>
+
+                        <img src="../images.pexels.com/photos/4352247/pexels-photo-43522477874.jpg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1"
+                            alt="Curved Forms" data-aos="fade-up">
+
+                        <p data-aos="fade-up">These organic shapes not only add visual interest but also contribute to a
+                            more relaxed atmosphere. They help to soften spaces and create a more intuitive,
+                            human-centered design approach that prioritizes comfort and wellbeing.</p>
+
+                        <h2 data-aos="fade-up">Conclusion</h2>
+                        <p data-aos="fade-up">The design trends of 2025 reflect a growing emphasis on sustainability,
+                            wellbeing, and adaptability. As we continue to navigate a changing world, our spaces are
+                            evolving to meet new challenges and opportunities. By embracing these trends, we can create
+                            environments that are not only beautiful but also supportive of our health, productivity,
+                            and connection to the natural world.</p>
+
+                        <p data-aos="fade-up">At Luxe Studio, we're excited to incorporate these evolving trends into
+                            our projects, always with our signature approach that balances innovation with timeless
+                            design principles.</p>
+
+                        <div class="blog-tags-share" data-aos="fade-up">
+                            <div class="blog-tags">
+                                <span class="tags-label">Tags:</span>
+                                <div class="tags-list">
+                                    <a href="#" class="tag">Design Trends</a>
+                                    <a href="#" class="tag">2025</a>
+                                    <a href="#" class="tag">Interior Design</a>
+                                    <a href="#" class="tag">Architecture</a>
+                                </div>
+                            </div>
+                            <div class="blog-share">
+                                <span class="share-label">Share:</span>
+                                <div class="share-buttons">
+                                    <a href="#" class="share-button"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="share-button"><i class="fab fa-pinterest"></i></a>
+                                    <a href="#" class="share-button"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="author-bio" data-aos="fade-up">
+                            <div class="author-bio-avatar">
+                                <img src="../images.pexels.com/photos/220453/pexels-photo-220453e7fe.jpg?auto=compress&amp;cs=tinysrgb&amp;w=600"
+                                    alt="Michael Chen">
+                            </div>
+                            <div class="author-bio-content">
+                                <h4>Michael Chen</h4>
+                                <p>Michael is our Senior Design Director with over 15 years of experience in
+                                    architectural and interior design. His work focuses on creating spaces that balance
+                                    aesthetic appeal with functionality and sustainability. Michael regularly
+                                    contributes to industry publications and speaks at design conferences worldwide.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <div class="sidebar">
+                        <!-- Search Widget -->
+                        <div class="sidebar-widget">
+                            <h4>Search</h4>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search articles...">
+                                <button class="btn btn-primary" type="button">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Categories Widget -->
+                        <div class="sidebar-widget">
+                            <h4>Categories</h4>
+                            <ul class="categories-list">
+                                <li>
+                                    <a href="#">Architecture <span>12</span></a>
+                                </li>
+                                <li>
+                                    <a href="#">Interior Design <span>18</span></a>
+                                </li>
+                                <li>
+                                    <a href="#">Sustainable Design <span>9</span></a>
+                                </li>
+                                <li>
+                                    <a href="#">Design Trends <span>15</span></a>
+                                </li>
+                                <li>
+                                    <a href="#">Space Planning <span>7</span></a>
+                                </li>
+                                <li>
+                                    <a href="#">Materials & Finishes <span>11</span></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Recent Posts Widget -->
+                        <div class="sidebar-widget">
+                            <h4>Recent Posts</h4>
+                            <div class="recent-post">
+                                <div class="recent-post-image">
+                                    <img src="../images.pexels.com/photos/1571453/pexels-photo-1571453e7fe.jpg?auto=compress&amp;cs=tinysrgb&amp;w=600"
+                                        alt="Recent Post">
+                                </div>
+                                <div class="recent-post-content">
+                                    <h5>Sustainable Design Practices</h5>
+                                    <span>March 8, 2025</span>
+                                </div>
+                            </div>
+                            <div class="recent-post">
+                                <div class="recent-post-image">
+                                    <img src="../images.pexels.com/photos/1571468/pexels-photo-1571468e7fe.jpg?auto=compress&amp;cs=tinysrgb&amp;w=600"
+                                        alt="Recent Post">
+                                </div>
+                                <div class="recent-post-content">
+                                    <h5>Maximizing Small Spaces</h5>
+                                    <span>February 28, 2025</span>
+                                </div>
+                            </div>
+                            <div class="recent-post">
+                                <div class="recent-post-image">
+                                    <img src="../images.pexels.com/photos/1643383/pexels-photo-1643383e7fe.jpg?auto=compress&amp;cs=tinysrgb&amp;w=600"
+                                        alt="Recent Post">
+                                </div>
+                                <div class="recent-post-content">
+                                    <h5>The Psychology of Color</h5>
+                                    <span>February 20, 2025</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tags Widget -->
+                        <div class="sidebar-widget">
+                            <h4>Tags</h4>
+                            <div class="tags-cloud">
+                                <a href="#" class="tag">Architecture</a>
+                                <a href="#" class="tag">Interior Design</a>
+                                <a href="#" class="tag">Sustainability</a>
+                                <a href="#" class="tag">Trends</a>
+                                <a href="#" class="tag">Minimalism</a>
+                                <a href="#" class="tag">Lighting</a>
+                                <a href="#" class="tag">Materials</a>
+                                <a href="#" class="tag">Space Planning</a>
+                                <a href="#" class="tag">Color Theory</a>
+                            </div>
+                        </div>
+
+                        <!-- Newsletter Widget -->
+                        <div class="sidebar-widget">
+                            <h4>Newsletter</h4>
+                            <p>Subscribe to our newsletter for the latest design insights and tips.</p>
+                            <form>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Your Email Address">
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Posts Section -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-subtitle">Continue Reading</span>
+                <h2 class="section-title">Related Articles</h2>
+            </div>
+            <div class="row related-posts">
+                <!-- Related Post 1 -->
+                <div class="col-md-4 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-post-card">
+                        <div class="blog-post-image">
+                            <img src="../images.pexels.com/photos/1571453/pexels-photo-15714537874.jpg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1"
+                                alt="Sustainable Design">
+                        </div>
+                        <div class="blog-post-content">
+                            <div class="blog-post-meta">
+                                <span class="blog-post-date">March 8, 2025</span>
+                                <span class="blog-post-category">Sustainability</span>
+                            </div>
+                            <h3>Sustainable Design Practices</h3>
+                            <p>How we integrate eco-friendly materials and energy-efficient solutions into our design
+                                philosophy.</p>
+                            <div class="blog-post-footer">
+                                <a href="#" class="blog-post-link">Read More</a>
+                                <span class="blog-post-read-time">7 min read</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Related Post 2 -->
+                <div class="col-md-4 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="200">
+                    <div class="blog-post-card">
+                        <div class="blog-post-image">
+                            <img src="../images.pexels.com/photos/1643383/pexels-photo-16433837874.jpg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1"
+                                alt="Color Psychology">
+                        </div>
+                        <div class="blog-post-content">
+                            <div class="blog-post-meta">
+                                <span class="blog-post-date">February 20, 2025</span>
+                                <span class="blog-post-category">Design Psychology</span>
+                            </div>
+                            <h3>The Psychology of Color in Interior Design</h3>
+                            <p>How different colors affect mood and perception, and how to use them effectively in your
+                                space.</p>
+                            <div class="blog-post-footer">
+                                <a href="#" class="blog-post-link">Read More</a>
+                                <span class="blog-post-read-time">8 min read</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Related Post 3 -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="blog-post-card">
+                        <div class="blog-post-image">
+                            <img src="assets/images/modern.jpeg"
+                                alt="Lighting Design">
+                        </div>
+                        <div class="blog-post-content">
+                            <div class="blog-post-meta">
+                                <span class="blog-post-date">February 5, 2025</span>
+                                <span class="blog-post-category">Lighting</span>
+                            </div>
+                            <h3>Lighting Design: Creating Ambiance</h3>
+                            <p>How to use different lighting techniques to create the perfect atmosphere in any space.
+                            </p>
+                            <div class="blog-post-footer">
+                                <a href="#" class="blog-post-link">Read More</a>
+                                <span class="blog-post-read-time">5 min read</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+                    <h2 class="section-title text-white">Stay Updated</h2>
+                    <p class="section-description text-light mb-4">Subscribe to our newsletter for the latest design
+                        trends, tips, and exclusive insights.</p>
+                    <form class="newsletter-form">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Your email address"
+                                aria-label="Your email address">
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<!-- Footer -->
+<!-- Font Awesome (required for icons) -->
+<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <!-- Brand -->
+            <div class="col-lg-4 mb-4">
+                <div class="footer-brand">
+                    <span class="brand-text">LUXE</span>
+                    <span class="brand-subtitle">STUDIO</span>
+                </div>
+                <p class="footer-description">
+                    Creating extraordinary spaces that inspire and elevate everyday living
+                    through visionary architecture and interior design.
+                </p>
+            </div>
+
+            <!-- Services -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5>Services</h5>
+                <ul class="footer-links">
+                    <li><a href="architecture">Architecture</a></li>
+                    <li><a href="interior">Interior Design</a></li>
+                    <li><a href="space-planning">Space Planning</a></li>
+                    <li><a href="consultation">Consultation</a></li>
+                </ul>
+            </div>
+
+            <!-- Company -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5>Company</h5>
+                <ul class="footer-links">
+                    <li><a href="about">About Us</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="blog">Blog</a></li>
+                    <li><a href="index.html#process">Process</a></li>
+                </ul>
+            </div>
+
+            <!-- Resources -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5>Resources</h5>
+                <ul class="footer-links">
+                    <li><a href="design">Design Guide</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Press Kit</a></li>
+                    <li><a href="careers">Careers</a></li>
+                </ul>
+            </div>
+
+            <!-- Social -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5>Follow Us</h5>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <hr class="footer-divider">
+
+        <!-- Bottom -->
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="footer-copyright">
+                    © 2026 Luxe Studio. All rights reserved.
+                </p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <ul class="footer-legal">
+                    <li><a href="privacy-policy">Privacy Policy</a></li>
+                    <li><a href="terms-condition">Terms of Service</a></li>
+                    <li><a href="faq">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- Add this scroll-to-top button just before the closing </body> tag -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 15L12 9L6 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+        </svg>
+    </button>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Animation Library -->
+    <script src="assets/js/aos.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+
+<!-- Mirrored from https://architecture-interior-eight.vercel.app/detail by HTTrack Website Copier/3.x [XR&CO], Mon, 16 Nov 2026 21:39:59 GMT -->
+</html>

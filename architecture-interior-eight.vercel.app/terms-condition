@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from https://architecture-interior-eight.vercel.app/terms-condition by HTTrack Website Copier/3.x [XR&CO], Mon, 16 Nov 2026 21:40:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Luxe Studio</title>
+    <meta name="description"
+        content="Luxe Studio Terms of Service - Please read these terms carefully before using our website and services.">
+     <link rel="icon" href="assets/images/icon.png">
+    <!-- Bootstrap 5 CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- AOS Animation Library -->
+    <link href="assets/css/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="logo-animation">
+                <span class="logo-text">LUXE</span>
+                <div class="logo-line"></div>
+                <span class="logo-subtitle">STUDIO</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="brand-text">LUXE</span>
+                <span class="brand-subtitle">STUDIO</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvas">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+                         <li class="nav-item"><a class="nav-link" href="home2">Home2</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#process">Process</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#blog">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="arch-hero-section">
+        <div class="arch-hero-background"></div>
+        <div class="arch-hero-overlay"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 data-aos="fade-up">Terms of Service</h1>
+                    <p class="lead" data-aos="fade-up" data-aos-delay="200">Last updated: March 15, 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Content Section -->
+    <section class="content-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div data-aos="fade-up">
+                        <p>Welcome to Luxe Studio. These Terms of Service ("Terms") govern your access to and use of our
+                            website, services, and applications (collectively, the "Services"). Please read these Terms
+                            carefully before using our Services.</p>
+                        <p>By accessing or using our Services, you agree to be bound by these Terms and our Privacy
+                            Policy. If you do not agree to these Terms, you may not access or use our Services.</p>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-delay="100">
+                        <h2>1. Definitions</h2>
+                        <p>Throughout these Terms, certain words have specific meanings:</p>
+                        <ul>
+                            <li>"We," "us," "our," and "Luxe Studio" refer to Luxe Studio Architecture & Interior
+                                Design.</li>
+                            <li>"You" and "your" refer to the individual or entity using our Services.</li>
+                            <li>"Content" means text, images, photos, audio, video, and all other forms of data or
+                                communication.</li>
+                            <li>"User Content" means Content that you submit or transmit to or through our Services.
+                            </li>
+                            <li>"Luxe Studio Content" means Content that we create and make available through our
+                                Services.</li>
+                        </ul>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-delay="200">
+                        <h2>2. Services Description</h2>
+                        <p>Luxe Studio provides architecture and interior design services, including but not limited to:
+                        </p>
+                        <ul>
+                            <li>Architectural design and planning</li>
+                            <li>Interior design services</li>
+                            <li>Space planning and optimization</li>
+                            <li>Project management</li>
+                            <li>Design consultation</li>
+                            <li>3D visualization and rendering</li>
+                        </ul>
+                        <p>We reserve the right to modify, suspend, or discontinue any part of our Services at any time
+                            without prior notice.</p>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-delay="300">
+                        <h2>3. Account Registration</h2>
+                        <p>To access certain features of our Services, you may need to create an account. When creating
+                            an account, you agree to:</p>
+                        <ul>
+                            <li>Provide accurate, current, and complete information</li>
+                            <li>Maintain the security of your password and accept all risks of unauthorized access</li>
+                            <li>Notify us immediately if you discover or suspect any security breaches related to our
+                                Services</li>
+                            <li>Take responsibility for all activities that occur under your account</li>
+                        </ul>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-delay="400">
+                        <h2>4. Intellectual Property Rights</h2>
+                        <p>All intellectual property rights in our Services, including Luxe Studio Content, are and will
+                            remain the exclusive property of Luxe Studio and its licensors.</p>
+                        <p>Subject to your compliance with these Terms, we grant you a limited, non-exclusive,
+                            non-transferable, non-sublicensable license to access and view Luxe Studio Content solely
+                            for your personal and non-commercial purposes.</p>
+                        <p>You may not:</p>
+                        <ul>
+                            <li>Copy, modify, or create derivative works based on our Services or Luxe Studio Content
+                            </li>
+                            <li>Distribute, license, sell, or otherwise commercialize our Services or Luxe Studio
+                                Content</li>
+                            <li>Use any data mining, robots, or similar data gathering or extraction methods</li>
+                            <li>Reverse engineer any portion of our Services</li>
+                        </ul>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-delay="500">
+                        <h2>5. User Content</h2>
+                        <p>By submitting User Content through our Services, you grant us a worldwide, non-exclusive,
+                            royalty-free, transferable, sublicensable license to use, store, display, reproduce, modify,
+                            and distribute your User Content for the purposes of operating, developing, and providing
+                            our Services.</p>
+                        <p>You are solely responsible for your User Content and the consequences of posting it. You
+                            represent and warrant that you have all rights necessary to grant us the license rights to
+                            your User Content under these Terms.</p>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-delay="600">
+                        <h2>6. Prohibited Conduct</h2>
+                        <p>When using our Services, you agree not to:</p>
+                        <ul>
+                            <li>Violate any applicable law or regulation</li>
+                            <li>Infringe the rights of any person or entity, including intellectual property rights</li>
+                            <li>Engage in any harassing, threatening, intimidating, or stalking behavior</li>
+                            <li>Use our Services to distribute spam or unsolicited commercial communications</li>
+                            <li>Interfere with or disrupt our Services or servers</li>
+                            <li>Use any automated means to access our Services without our permission</li>
+                            <li>Impersonate any person or entity or falsely state your affiliation with a person or
+                                entity</li>
+                        </ul>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-delay="700">
+                        <h2>7. Termination</h2>
+                        <p>We may terminate or suspend your account or ability to access our Services at any time for
+                            any reason, including if you violate these Terms.</p>
+                        <p>Upon termination, your right to use our Services will immediately cease. All provisions of
+                            these Terms that by their nature should survive termination will survive termination.</p>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-delay="800">
+                        <h2>8. Disclaimers</h2>
+                        <p>Our Services are provided "as is" without warranties of any kind, either express or implied.
+                            We disclaim all warranties, including but not limited to implied warranties of
+                            merchantability, fitness for a particular purpose, and non-infringement.</p>
+                        <p>We do not guarantee that our Services will be uninterrupted, secure, or error-free, or that
+                            any defects will be corrected.</p>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-delay="900">
+                        <h2>9. Limitation of Liability</h2>
+                        <p>To the fullest extent permitted by law, Luxe Studio shall not be liable for any indirect,
+                            incidental, special, consequential, or punitive damages, or any loss of profits or revenues,
+                            whether incurred directly or indirectly, or any loss of data, use, goodwill, or other
+                            intangible losses resulting from:</p>
+                        <ul>
+                            <li>Your access to or use of or inability to access or use our Services</li>
+                            <li>Any conduct or content of any third party on our Services</li>
+                            <li>Any unauthorized access to or use of our servers and/or any personal information stored
+                                therein</li>
+                            <li>Any interruption or cessation of transmission to or from our Services</li>
+                        </ul>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-delay="1000">
+                        <h2>10. Governing Law</h2>
+                        <p>These Terms shall be governed by and construed in accordance with the laws of the State of
+                            New York, without regard to its conflict of law provisions.</p>
+                        <p>Any dispute arising from these Terms or your use of our Services shall be resolved in the
+                            state or federal courts located in New York County, New York.</p>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-delay="1100">
+                        <h2>11. Changes to Terms</h2>
+                        <p>We may modify these Terms from time to time. If we make changes, we will provide notice of
+                            such changes by updating the "Last Updated" date at the beginning of these Terms or by other
+                            means.</p>
+                        <p>By continuing to access or use our Services after the revised Terms become effective, you
+                            agree to be bound by the revised Terms.</p>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-delay="1200">
+                        <h2>12. Contact Information</h2>
+                        <p>If you have any questions about these Terms, please contact us at:</p>
+                        <p>
+                            Luxe Studio<br>
+                            123 Design Boulevard<br>
+                            Creative Quarter, NY 10001<br>
+                            Phone: (555) 123-4567<br>
+                            Email: legal@luxestudio.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<!-- Footer -->
+<!-- Font Awesome (required for icons) -->
+<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <!-- Brand -->
+            <div class="col-lg-4 mb-4">
+                <div class="footer-brand">
+                    <span class="brand-text">LUXE</span>
+                    <span class="brand-subtitle">STUDIO</span>
+                </div>
+                <p class="footer-description">
+                    Creating extraordinary spaces that inspire and elevate everyday living
+                    through visionary architecture and interior design.
+                </p>
+            </div>
+
+            <!-- Services -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5>Services</h5>
+                <ul class="footer-links">
+                    <li><a href="architecture">Architecture</a></li>
+                    <li><a href="interior">Interior Design</a></li>
+                    <li><a href="space-planning">Space Planning</a></li>
+                    <li><a href="consultation">Consultation</a></li>
+                </ul>
+            </div>
+
+            <!-- Company -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5>Company</h5>
+                <ul class="footer-links">
+                    <li><a href="about">About Us</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="blog">Blog</a></li>
+                    <li><a href="index.html#process">Process</a></li>
+                </ul>
+            </div>
+
+            <!-- Resources -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5>Resources</h5>
+                <ul class="footer-links">
+                    <li><a href="design">Design Guide</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Press Kit</a></li>
+                    <li><a href="careers">Careers</a></li>
+                </ul>
+            </div>
+
+            <!-- Social -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5>Follow Us</h5>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <hr class="footer-divider">
+
+        <!-- Bottom -->
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="footer-copyright">
+                    © 2026 Luxe Studio. All rights reserved.
+                </p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <ul class="footer-legal">
+                    <li><a href="privacy-policy">Privacy Policy</a></li>
+                    <li><a href="terms-condition">Terms of Service</a></li>
+                     <li><a href="faq">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- Add this scroll-to-top button just before the closing </body> tag -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 15L12 9L6 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+        </svg>
+    </button>
+
+
+    <!-- Bootstrap 5 JS -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Animation Library -->
+    <script src="assets/js/aos.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+
+<!-- Mirrored from https://architecture-interior-eight.vercel.app/terms-condition by HTTrack Website Copier/3.x [XR&CO], Mon, 16 Nov 2026 21:40:04 GMT -->
+</html>
